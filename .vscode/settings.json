@@ -1,0 +1,10 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python.analysis.extraPaths": [
+        "./engines/index-tts"
+    ],
+    "python.autoComplete.extraPaths": [
+        "./engines/index-tts"
+    ],
+    "python-envs.defaultPackageManager": "ms-python.python:pip"
+}
