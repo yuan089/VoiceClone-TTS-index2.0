@@ -44,18 +44,3 @@ Thumbs.db
 
 # Git
 .gitmodules
-
-# Large files (>100MB for GitHub)
-*.bin
-*.pth
-*.safetensors
-*.pt
-*.onnx
-*.pb
-
-# Models and Checkpoints (large files)
-models/
-checkpoints/
-
-# Hugging Face cache
-checkpoints/hf_cache/
