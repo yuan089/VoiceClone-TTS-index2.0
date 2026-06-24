@@ -29,9 +29,9 @@ wheels/
 venv/
 env/
 ENV/
-.venv
+.venv/
 
-# IDE
+# IDE settings
 .vscode/
 .idea/
 *.swp
@@ -45,9 +45,17 @@ Thumbs.db
 # Git
 .gitmodules
 
-# Large files
+# Large files (>100MB for GitHub)
 *.bin
 *.pth
+*.safetensors
+*.pt
+*.onnx
+*.pb
+
+# Models and Checkpoints (large files)
+models/
+checkpoints/
 
 # Hugging Face cache
 checkpoints/hf_cache/
